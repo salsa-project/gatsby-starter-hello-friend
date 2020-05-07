@@ -61,11 +61,11 @@ h4 {
 
 @media (--phone) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   h3 {
@@ -75,6 +75,12 @@ h4 {
   h4 {
     font-size: 1.125rem;
   }
+  blockquote{
+    &:last-child{
+      margin-top: -50px !important;
+    }
+  }
+  
 }
 
 a {
@@ -173,9 +179,19 @@ pre {
 }
 
 blockquote {
-  border-left: 2px solid;
+  direction: ltr;
+  position: relative;
   margin: 40px;
-  padding: 10px 20px;
+  padding: 10px 30px;
+  color: --dark-color;
+  background: rgba(150,150,150,0.1);
+  border-right: 4px rgba(180,180,180,0.3) solid;
+  border-left: 4px rgba(180,180,180,0.3) solid;
+  border-radius: 3px;
+  font-size: 15pt;
+  font-weight: 100;
+  font-family: 'El Messiri', sans-serif;
+  text-align: center;
 
   @media (--phone) {
     margin: 10px;
@@ -187,7 +203,15 @@ blockquote {
   }
 
   p:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 30px;
+  }
+  &:last-child{
+    margin-top: -82px;
+    color: rgba(205,50,50,0.9);
+    background: none;
+    border: 0px;
+    font-size: 11pt;
+
   }
 }
 
@@ -306,10 +330,6 @@ hr {
     border: 0;
   }
 }
-/*********************/
-        post
-/*********************/
-
 
 /*******************/
         footer

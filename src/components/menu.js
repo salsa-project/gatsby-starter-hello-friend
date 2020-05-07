@@ -86,6 +86,14 @@ const Menu = ({
           </button>
         </>
       </div>
+      <button
+        className={style.themeToggle}
+        onClick={onChangeTheme}
+        type="button"
+        aria-label="Theme toggle"
+      >
+        <Icon style={{ cursor: 'pointer' }} size={24} d={toggleIcon} />
+      </button>
       <div className={style.desktopMenuContainer}>
         <ul className={style.menu}>
           <MainMenu mainMenu={mainMenu} mainMenuItems={mainMenuItems} />
@@ -113,14 +121,7 @@ const Menu = ({
           ) : null}
         </ul>
       </div>
-      <button
-        className={style.themeToggle}
-        onClick={onChangeTheme}
-        type="button"
-        aria-label="Theme toggle"
-      >
-        <Icon style={{ cursor: 'pointer' }} size={24} d={toggleIcon} />
-      </button>
+
     </>
   )
 }

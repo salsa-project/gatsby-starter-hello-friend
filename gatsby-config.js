@@ -22,17 +22,17 @@ module.exports = {
     menuMoreText: 'Show more',
     mainMenu: [
       {
-        title: 'من أنا؟',
-        path: '/about',
-      },
-      {
         title: 'المعرض',
         path: '/showcase',
       },
       {
-        title: 'مثال',
-        path: '/example',
+        title: 'من أنا؟',
+        path: '/about',
       },
+      // {
+      //   title: 'مثال',
+      //   path: '/example',
+      // },
     ],
   },
   plugins: [

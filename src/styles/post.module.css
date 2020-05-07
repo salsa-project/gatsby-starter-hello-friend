@@ -13,7 +13,21 @@
       border-color: var(--dark-border-color);
     }
   }
-
+  @media (--phone) {
+    .meta{
+      .postDate, .postAuthor{
+        top: -10px;
+      }
+      .postDate{
+        top: 20px;
+      }
+    }
+    .tag{
+      padding: 2px 4px !important;
+      margin: 0px 4px !important;
+      font-size: 8pt !important;
+    }
+  }
   @media (--tablet) {
     max-width: 660px;
   }
@@ -39,7 +53,7 @@
 
 
 .meta {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   .postDate, .postAuthor{
     position: absolute;
@@ -78,6 +92,7 @@
     }
   }
 }
+
 
 .postContent {
   position: relative;
