@@ -1,4 +1,6 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+
+/* @font-face {
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 400;
@@ -35,4 +37,4 @@
   font-style:  italic;
   font-weight: 800;
   src: url("../../static/fonts/Inter-UI-BoldItalic.woff") format("woff");
-}
+} */

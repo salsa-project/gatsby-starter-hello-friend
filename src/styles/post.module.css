@@ -1,9 +1,10 @@
 .post {
   width: 100%;
   max-width: 800px;
-  text-align: left;
+  text-align: right;
   padding: 20px;
   margin: 0 auto 20px;
+  font-family: 'Almarai', sans-serif;
 
   &:not(:last-of-type) {
     border-bottom: 1px solid var(--light-border-color);
@@ -22,45 +23,75 @@
   }
 
   img {
-    border-radius: 8px;
+    border-radius: 3px;
   }
 }
 
 .title {
   a {
     text-decoration: none;
+    color: rgba(200, 40, 0, 1);
+  }
+}
+
+
+
+.meta {
+  margin-bottom: 30px;
+
+  .postDate, .postAuthor{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 3px 0px;
+    border-bottom: 1px rgba(100,100,100,0.5) solid;
+    font-size: 9pt;
+  }
+  .postDate{
+    top: 30px;
+    font-size: 8pt;
+    direction: ltr;
+  }
+  .tags {
+    opacity: 0.8;
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      margin-right: 15px;
+      background: rgba(200,200,200,0.4);
+      border: 1px rgba(200,200,200,0.3) solid;
+      border-right: 4px rgba(255, 30, 30, 0.5) solid;
+      border-radius: 3px;
+      font-size: 10pt;
+
+      &:hover{
+        color: rgba(255, 30, 30, 0.8);
+        transform: scale(1.1);
+      }
+
+      .hashtag{
+        color: red;
+      }
+    }
   }
 }
 
 .coverImage {
-  border-radius: 8px;
   margin-bottom: 40px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
 }
 
-.meta {
-  font-size: 1rem;
-  margin-bottom: 30px;
-}
-
-.tags {
-  margin-top: 10px;
-  opacity: .5;
-}
-
-.tag {
-  display: inline-block;
-  margin-right: 10px;
+.postContent {
+  position: relative;
 }
 
 .readMore {
-  display: inline-block;
+  display: block;
+  margin: 20px 0px 0px auto;
+  color: rgba(190, 120, 0, 1);
+  font-size: 1rem;
   text-decoration: none;
   font-weight: bold;
-  margin: 20px 0;
-  font-size: 1rem;
-}
-
-.postContent {
-  position: relative;
+  text-align: left;
 }

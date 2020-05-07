@@ -31,12 +31,12 @@ const Post = ({
           {excerpt ? <Link to={path}>{title}</Link> : title}
         </h1>
         <div className={style.meta}>
-          {date} {author && <>— Written by {author}</>}
+          <p className={style.postDate}>{date}</p> {author && <p className={style.postAuthor}>الكاتب : <span style={{color: "red"}}>_</span>{author}<span style={{color: "red"}}>_</span></p>}
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (
                 <Link to={`/tag/${toKebabCase(tag)}/`} key={toKebabCase(tag)}>
-                  <span className={style.tag}>#{tag}</span>
+                  <span className={style.tag}><span className={style.hashtag}># </span>{tag}</span>
                 </Link>
               ))}
             </div>
@@ -54,7 +54,7 @@ const Post = ({
           <>
             <p>{excerpt}</p>
             <Link to={path} className={style.readMore}>
-              Read more →
+              إقرأ المزيد <span>&#11013;</span>
             </Link>
           </>
         ) : (
