@@ -2,12 +2,13 @@ body{
   direction: rtl;
 }
 .header {
-  background: #fafafa;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
+  background: #fafafa;
+  z-index: 5;
 
   :global .dark-theme :local & {
     background: rgba(20,20,20, 0.5);

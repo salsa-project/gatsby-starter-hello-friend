@@ -15,22 +15,22 @@ module.exports = {
       src: '',
       alt: '',
     },
-    logoText: 'Kiosk_Dz',
+    logoText: 'واجهة مطور',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
     menuMoreText: 'Show more',
     mainMenu: [
       {
-        title: 'About',
+        title: 'من أنا؟',
         path: '/about',
       },
       {
-        title: 'Showcase',
+        title: 'المعرض',
         path: '/showcase',
       },
       {
-        title: 'Example',
+        title: 'مثال',
         path: '/example',
       },
     ],

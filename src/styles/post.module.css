@@ -22,15 +22,17 @@
     margin: 0 0 10px;
   }
 
-  img {
-    border-radius: 3px;
+  .title {
+    a {
+      text-decoration: none;
+      color: rgba(200, 40, 0, 1);
+    }
   }
-}
 
-.title {
-  a {
-    text-decoration: none;
-    color: rgba(200, 40, 0, 1);
+  .coverImage, img {
+    margin-bottom: 40px;
+    border-radius: 3px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
   }
 }
 
@@ -77,11 +79,6 @@
   }
 }
 
-.coverImage {
-  margin-bottom: 40px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
-}
-
 .postContent {
   position: relative;
 }
@@ -94,4 +91,8 @@
   text-decoration: none;
   font-weight: bold;
   text-align: left;
+
+  .unicodeArrow{
+    color: rgba(255, 30, 30, 0.5);
+  }
 }

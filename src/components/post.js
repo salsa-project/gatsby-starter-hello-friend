@@ -54,7 +54,7 @@ const Post = ({
           <>
             <p>{excerpt}</p>
             <Link to={path} className={style.readMore}>
-              إقرأ المزيد <span>&#11013;</span>
+              إقرأ المزيد <span className={style.unicodeArrow}>&#11013;</span>
             </Link>
           </>
         ) : (
