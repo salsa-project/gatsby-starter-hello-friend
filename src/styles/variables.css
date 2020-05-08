@@ -5,6 +5,7 @@
   --light-color: #333;
   --light-color-secondary: #999;
   --light-border-color: #dcdcdc;
+  --light-post-card-background: rgba(180,180,180,1);
 
   /* dark theme colors */
   --dark-background: #101721;
@@ -12,6 +13,7 @@
   --dark-color: #b3b3bc;
   --dark-color-secondary: #73747b;
   --dark-border-color: #4a4b50;
+  --dark-post-card-background: rgba(180,180,180,1);
 
   /* variables for js, must be the same as these in @custom-media queries */
   --phoneWidth: (max-width: 684px);

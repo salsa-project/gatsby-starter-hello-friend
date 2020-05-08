@@ -52,10 +52,10 @@ const Post = ({
 
         {excerpt ? (
           <>
-            <p className={style.postExcerpt}>{excerpt}</p>
-            <Link to={path} className={style.readMore}>
-              إقرأ المزيد <span className={style.unicodeArrow}>&#11013;</span>
-            </Link>
+            {/*<p className={style.postExcerpt}>{excerpt}</p>*/}
+            {/*<Link to={path} className={style.readMore}>*/}
+            {/*  إقرأ المزيد <span className={style.unicodeArrow}>&#11013;</span>*/}
+            {/*</Link>*/}
           </>
         ) : (
           <>

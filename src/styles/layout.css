@@ -13,14 +13,14 @@ html {
 }
 
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  color: var(--light-color);
+  background-color: var(--light-background);
   font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.54;
-  background-color: var(--light-background);
-  color: var(--light-color);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -80,7 +80,7 @@ h4 {
       margin-top: -50px !important;
     }
   }
-  
+
 }
 
 a {
@@ -272,7 +272,7 @@ button, input, textarea {
   justify-content: center;
   margin: 50px auto;
   width: 100%;
-  max-width: 800px;;
+  max-width: 1000px;
 
   @media (--phone) {
     margin-top: 0;
