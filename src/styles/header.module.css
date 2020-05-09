@@ -6,7 +6,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   background: #fafafa;
   z-index: 5;
 
@@ -51,6 +51,10 @@ body{
   margin-left: 5px;
   border-radius: 1px;
   animation: cursor 1s infinite;
+
+  :global .dark-theme :local & {
+    background: rgba(234, 220, 91);
+  }
 }
 
 .text,

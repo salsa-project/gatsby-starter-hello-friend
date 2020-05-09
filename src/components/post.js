@@ -31,7 +31,7 @@ const Post = ({
           {excerpt ? <Link to={path}>{title}</Link> : title}
         </h1>
         <div className={style.meta}>
-          <p className={style.postDate}>{date}</p> {author && <p className={style.postAuthor}>الكاتب : <span style={{color: "red"}}>_</span>{author}<span style={{color: "red"}}>_</span></p>}
+          <p className={style.postDate}>{date}</p> {author && <p className={style.postAuthor}>الكاتب : <span className={style.underscore}>_</span>{author}<span className={style.underscore}>_</span></p>}
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (
@@ -42,8 +42,6 @@ const Post = ({
             </div>
           ) : null}
         </div>
-
-        
 
         {excerpt ? (
           <>

@@ -212,6 +212,9 @@ blockquote {
     border: 0px;
     font-size: 11pt;
 
+    :global .dark-theme :local & {
+      color: rgba(234, 220, 91);
+    }
   }
 }
 
