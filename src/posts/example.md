@@ -1,26 +1,20 @@
 ---
-title: "Example"
-date: "2017-01-02"
-path: "/example"
-author: "Lorem Ipsum"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante."
+title: "إفتتاح المدونة"
+date: "2020-05-09"
+path: "/blogBegin"
+author: "MrSalsa"
+excerpt: ""
+tags: ['إفتتاح', 'جديد']
 ---
+السلام عليكم و رحمة الله تعالى و بركاته
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante.
+مرحبا بالعالم .. بما أن هذا الموضوع سيكون كمقدمة للمدونة فسأترك لكم بعض المعلومات العامة للرؤيا الحالية لها و أيضا نبذة عن شخصي و ما ستسفيده من متابعتك لواجهة مطور .
 
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
 
-**Donec quis dolor nec nunc mollis interdum vel in purus**. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
+- من أنا ؟
 
-> Fusce pharetra suscipit orci nec tempor. Quisque vitae sem sit amet sem mollis consequat. Sed at imperdiet lorem. Vestibulum pharetra faucibus odio, ac feugiat tellus sollicitudin at. Pellentesque varius tristique mi imperdiet dapibus. Duis orci odio, sodales lacinia venenatis sit amet, feugiat et diam.
+محمد أمين من الجزائر ,  مطور ويب شامل 
 
-Sed a leo id risus venenatis vulputate non quis nulla. Aenean nisl quam, lacinia pulvinar orci sit amet, eleifend eleifend dui. Nulla tempor ligula leo, eu vehicula quam condimentum a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla gravida tristique nunc sed semper. Morbi nec felis odio.
+- المدونة شخصية تهدف إلى المنفعة العامة :
 
-- Sed efficitur, lacus ac scelerisque pellentesque, lectus risus dignissim nisl, fermentum semper lectus diam eget lacus.
-- Nunc ornare purus enim, id eleifend mauris vestibulum volutpat.
-- Aenean facilisis ut ipsum condimentum ultrices.
-- Fusce sed metus vulputate, lobortis purus et, finibus purus. Suspendisse quis posuere lorem. Vivamus vulputate nec risus in pulvinar.
+المعنى الأصح لهذه العبارة هو أن ال
