@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.625rem;
+  font-size: 2.4rem;
 }
 
 h2 {
@@ -183,8 +183,8 @@ blockquote {
   position: relative;
   margin: 40px;
   padding: 10px 30px;
-  color: --dark-color;
-  background: rgba(150,150,150,0.1);
+  color: rgba(100,100,100);
+  background: rgba(170,170,170,0.1);
   border-right: 4px rgba(180,180,180,0.3) solid;
   border-left: 4px rgba(180,180,180,0.3) solid;
   border-radius: 3px;
@@ -192,6 +192,10 @@ blockquote {
   font-weight: 100;
   font-family: 'El Messiri', sans-serif;
   text-align: center;
+  :global .dark-theme :local & {
+    color: rgba(180,180,180);
+    background: rgba(20,20,20, 0.4);
+  }
 
   @media (--phone) {
     margin: 10px;
@@ -279,6 +283,12 @@ button, input, textarea {
 
   @media (--phone) {
     margin-top: 0;
+
+    .infoBanner{
+      width: 100%;
+      margin: 0px 0px 20px;
+      border-radius: 0px;
+    }
   }
 
   @media (--tablet) {
@@ -298,19 +308,27 @@ hr {
 }
 
 .infoBanner {
-  text-align: left;
   margin: 20px 0 40px;
+  width: 80%;
   padding: 10px 20px;
   border-radius: 10px;
-  width: calc(100% - 40px);
+  text-align: center;
   background: var(--light-background-secondary);
+  font-weight: 100;
+  font-family: 'Almarai', sans-serif;
 
   .dark-theme & {
     background: var(--dark-background-secondary);
   }
 
   span {
+    padding-right: 10px;
+    color: yellow;
     font-weight: bold;
+
+    .light-theme & {
+      color: red;
+    }
   }
 }
 
@@ -348,6 +366,7 @@ footer {
     flex-direction: column;
   }
 
+
   .footerCopyrights {
     &:not(:first-of-type) {
       margin-left: 20px;
@@ -362,3 +381,32 @@ footer {
     }
   }
 }
+.footerCopyrightsPTag{
+  direction: ltr;
+  display: flex;
+  justify-content: space-around;
+  font-size: 11pt;
+}
+/***********************************
+             SCROLLBAR
+***********************************/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border: 3px solid #ededed;
+}
+
+::-webkit-scrollbar-track {
+  background: #ededed;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+
+
+/************END*************/

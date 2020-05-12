@@ -21,7 +21,7 @@ const Tags = ({
       <SEO />
       <Layout>
         <div className="infoBanner">
-          Posts with tag: <span>#{tag}</span>
+          البحث عن : <span> #{tag}</span>
         </div>
 
         {posts.map(({ node }) => {

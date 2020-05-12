@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Mirza:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade&display=swap');
+@font-face {
+  font-family: 'Dubai Light';
+  font-weight: 100;
+  src: url("../../static/fonts/DubaiW23-Light.woff") format("woff");
+}
+@font-face {
+  font-family: 'Dubai Regular';
+  font-weight: 100;
+  src: url("../../static/fonts/DubaiW23-Regular.woff") format("woff");
+}
 /*@font-face {
   font-family: 'Inter UI';
   font-style:  italic;

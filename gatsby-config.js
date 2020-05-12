@@ -7,15 +7,15 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `مرحبا يا أصدقاء`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `أسبوع مطور`,
+    description: `مدونة تهتم بتطوير الويب الشامل بال javascript`,
     copyrights: '',
-    author: `@panr`,
+    author: `MrSalsa`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'واجهة مطور',
+    logoText: 'أسبوع مطور',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,

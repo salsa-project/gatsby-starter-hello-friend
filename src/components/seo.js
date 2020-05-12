@@ -78,17 +78,24 @@ const SEO = ({ description, lang, meta, keywords, title }) => {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `ar`,
   meta: [],
   keywords: [
     'gatsby',
-    'minimal',
-    'starter',
-    'blog',
-    'theme',
+    'مدونة',
+    'تطوير الويب',
+    'جافاسكريبت',
     'dark',
     'light',
-    'personal site',
+    'مطور ويب',
+    'تطوير الويب',
+    'شرح تطوير الويب',
+    'صنع موقع',
+    'javascript',
+    'frontend',
+    'backend',
+    'node.js',
+    'react.js',
   ],
 }
 

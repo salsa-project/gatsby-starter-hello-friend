@@ -1,17 +1,17 @@
 :root {
   /* light theme color */
-  --light-background: #fff;
+  --light-background: rgba(251,251,251);
   --light-background-secondary: #eaeaea;
   --light-color: #333;
   --light-color-secondary: #999;
-  --light-border-color: #dcdcdc;
+  --light-border-color: rgba(220,220,220, 0.1);
 
   /* dark theme colors */
-  --dark-background: #202024;
+  --dark-background: #2D3748;
   --dark-background-secondary: #3b3d42;
-  --dark-color: #b3b3bc;
+  --dark-color: rgba(220, 220, 220, 1);
   --dark-color-secondary: #73747b;
-  --dark-border-color: #4a4b50;
+  --dark-border-color: rgba(220,220,220, 0.2);
 
   /* variables for js, must be the same as these in @custom-media queries */
   --phoneWidth: (max-width: 684px);

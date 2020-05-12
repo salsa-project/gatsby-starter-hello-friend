@@ -7,13 +7,12 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background: #fafafa;
+  margin-bottom: 20px;
   z-index: 5;
-
-  :global .dark-theme :local & {
-    background: rgba(20,20,20, 0.5);
+  *{
+    font-family: 'Almarai', sans-serif;
   }
-
+  
   a {
     text-decoration: none;
   }
