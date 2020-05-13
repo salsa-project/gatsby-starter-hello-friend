@@ -1,0 +1,31 @@
+.showcaseAbout{
+  height: 200px;
+  width: 350px;
+  padding: 15px;
+  margin: 20px 0px;
+  border: 1px rgba(200,200,200, 0.7) solid;
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px -3px lightgray;
+  background: rgba(240,240,240,0.2);
+
+  :global .dark-theme :local &{
+    background: rgba(0,0,0,0.1);
+    box-shadow: none;
+    border: 1px rgba(200,200,200, 0.3) solid;
+  }
+
+  h2{
+    display: block;
+    margin: 5px 0px;
+    color: #D26464;
+    font-family: 'Almarai', sans-serif !important;
+    text-align: center;
+
+    :global .dark-theme :local &{
+      color: rgba(234, 220, 91);
+    }
+  }
+  p{
+    font-family: 'Dubai Light', sans-serif !important;
+  }
+}

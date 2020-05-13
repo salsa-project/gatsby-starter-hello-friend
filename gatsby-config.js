@@ -7,7 +7,7 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `أسبوع مطور`,
+    title: `تلميحات مطور`,
     description: `مدونة تهتم بتطوير الويب الشامل بال javascript`,
     copyrights: '',
     author: `MrSalsa`,
@@ -15,7 +15,7 @@ module.exports = {
       src: '',
       alt: '',
     },
-    logoText: 'أسبوع مطور',
+    logoText: 'تلميحات مطور',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
@@ -123,5 +123,11 @@ module.exports = {
         icon: `src/images/hello-icon.png`,
       },
     },
+    {
+        resolve: 'gatsby-plugin-mailchimp',
+        options: {
+            endpoint: 'https://app.us18.list-manage.com/subscribe/post?u=d1b3e92d45b809cf5f0971195&amp;id=d53c426dc7', // add your MC list endpoint here; see instructions below
+        },
+    }
   ],
 }

@@ -66,7 +66,7 @@ const Menu = ({
             <>
               {/* eslint-enable */}
               <ul className={style.mobileMenu}>
-                <li class={style.closeMobileMenu} onClick={onToggleMobileMenu}>X</li>
+                <li className={style.closeMobileMenu} onClick={onToggleMobileMenu}>X</li>
                 <MainMenu mainMenu={mainMenu} isMobileMenu />
               </ul>
             </>

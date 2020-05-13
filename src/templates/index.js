@@ -5,6 +5,7 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Post from '../components/post'
 import Navigation from '../components/navigation'
+import Showcase from '../components/showcase'
 
 const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
   const {
@@ -15,6 +16,7 @@ const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
     <>
       <SEO />
       <Layout>
+        <Showcase />
         {posts.map(({ node }) => {
           const {
             id,

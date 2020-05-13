@@ -1,0 +1,9 @@
+.showcaseWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 40px;
+  border-bottom: 1px rgba(200,200,200, 0.3) solid;
+}

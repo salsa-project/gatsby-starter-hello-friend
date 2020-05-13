@@ -384,8 +384,14 @@ footer {
 .footerCopyrightsPTag{
   direction: ltr;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: space-around;
   font-size: 11pt;
+
+  span{
+    padding: 10px;
+    font-family: 'Almarai', sans-serif;
+  }
 }
 /***********************************
              SCROLLBAR
