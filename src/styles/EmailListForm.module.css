@@ -1,7 +1,7 @@
 .mailchimpForm{
   width: 350px;
   padding: 15px;
-  border: 1px rgba(200,200,200, 0.7) solid;
+  border: 1px rgba(200,200,200, 0.3) solid;
   border-radius: 3px;
   box-shadow: 0px 0px 6px -3px lightgray;
   background: rgba(240,240,240,0.2);
@@ -10,6 +10,11 @@
     background: rgba(0,0,0,0.1);
     box-shadow: none;
     border: 1px rgba(200,200,200, 0.3) solid;
+  }
+
+  @media (--phone) {
+    width: 100%;
+    border-color: rgba(200,200,200, 0.3);
   }
 
   img{
@@ -26,6 +31,10 @@
 
     :global .dark-theme :local &{
       color: rgba(234, 220, 91);
+    }
+
+    @media (--phone){
+      font-size: 14pt;
     }
   }
   p{
