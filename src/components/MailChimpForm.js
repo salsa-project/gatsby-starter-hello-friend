@@ -6,8 +6,6 @@ import logo from '../images/logo.svg'
 function MailChimpForm(){
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
-
-
   const handleSubmit = (e) => {
     e.preventDefault();
     addToMailchimp(email).then(data => {
