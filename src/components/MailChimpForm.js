@@ -6,21 +6,25 @@ import logo from '../images/logo.svg'
 function MailChimpForm(){
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    addToMailchimp(email).then(data => {
-      console.log(data)
-    })
+    if (/^[a-zA-Z0-9].+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email)){
+      addToMailchimp(email, {name: name}).then(data => {
+        console.log(data)
+        if(data.result = 'success'){
+
+        }
+      })
+    }
   };
 
   const handleEmailChange = (event) => {
-    setEmail(event.currentTarget.value);
-    console.log(email);
+    setEmail(event.target.value);
   };
 
   const handleNameChange = (event) => {
-    setName(event.currentTarget.value);
-    console.log(name);
+    setName(event.target.value);
   };
 
   return (
@@ -34,12 +38,14 @@ function MailChimpForm(){
         name="email"
         type="text"
         onChange={handleEmailChange}
+        value={email}
         />
         <input
         placeholder="الإسم الكامل"
-        name="fullName"
+        name="First Name"
         type="text"
         onChange={handleNameChange}
+        value={name}
         />
         <button type="submit">أشترك</button>
       </div>
